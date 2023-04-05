@@ -8,17 +8,17 @@
    
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pratham930/checkmate.git"
+    "type": "git"
+ 
   },
   "keywords": [],
   "author": "",
   "type": "module",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pratham930/checkmate/issues"
+  
   },
-  "homepage": "https://github.com/pratham930/checkmate#readme",
+ 
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
