@@ -10,17 +10,16 @@
    
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Surendrakumar878/checkmatebackend.git"
+    "type": "git"
+   
   },
   "keywords": [],
   "author": "",
   "type": "module",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Surendrakumar878/checkmatebackend/issues"
-  },
-  "homepage": "https://github.com/Surendrakumar878/checkmatebackend#readme",
+  
+    
+ 
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
