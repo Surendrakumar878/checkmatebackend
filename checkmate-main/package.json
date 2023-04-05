@@ -1,24 +1,25 @@
 {
-  "name": "checkmate",
+  "name": "checkmatebackend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
    
   },
   "repository": {
-    "type": "git"
- 
+    "type": "git",
+    "url": "git+https://github.com/Surendrakumar878/checkmatebackend.git"
   },
   "keywords": [],
   "author": "",
   "type": "module",
   "license": "ISC",
   "bugs": {
-  
+    "url": "https://github.com/Surendrakumar878/checkmatebackend/issues"
   },
- 
+  "homepage": "https://github.com/Surendrakumar878/checkmatebackend#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -31,3 +32,4 @@
     "nodemon": "^2.0.21"
   }
 }
+
