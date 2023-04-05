@@ -13,6 +13,9 @@ connectDB(DATABASE_URL);
 export const app = express();
 app.use(express.json());
 app.use(cors());
+app.get("/",(req,res)=>{
+  res.send("home page admin")
+})
 app.use(express.urlencoded({ extended: true }));
 
 // app.use("/api", paperRoute);
