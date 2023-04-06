@@ -8,7 +8,8 @@ import Blog from "../model/blog.js";
 import asyncHandler from "express-async-handler";
 import ContactUs from "../model/contactUs.js";
 import Cat from "../model/category.js";
-
+import dotenv from "dotenv";
+dotenv.config()
 class adminController {
   static adminSingup = asyncHandler(async (req, res) => {
     try {
