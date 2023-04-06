@@ -24,16 +24,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", adminRoute);
 // app.use("/api", blogRoute);
 
-app.use(express.static("public/uploads/pimage"));
-app.use(express.static("public/uploads/title1img"));
-app.use(express.static("public/uploads/title2img"));
-app.use(express.static("public/uploads/title3img"));
-app.use(express.static("public/uploads/title4img"));
-app.use(express.static("public/uploads/title5img"));
-app.use(express.static("public/uploads/mainTitleImg"));
-app.use(express.static("public/uploads/doc"));
-app.use(notFound);
-app.use(errorHandler);
+// app.use(express.static("public/uploads/pimage"));
+// app.use(express.static("public/uploads/title1img"));
+// app.use(express.static("public/uploads/title2img"));
+// app.use(express.static("public/uploads/title3img"));
+// app.use(express.static("public/uploads/title4img"));
+// app.use(express.static("public/uploads/title5img"));
+// app.use(express.static("public/uploads/mainTitleImg"));
+// app.use(express.static("public/uploads/doc"));
+// app.use(notFound);
+// app.use(errorHandler);
 
 app.listen(port, () => {
   console.log(`local host:${port}`);
