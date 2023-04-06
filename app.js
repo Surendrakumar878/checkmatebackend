@@ -5,7 +5,8 @@ import connectDB from "./db/connectdb.js";
 import adminRoute from "./routes/admin.js";
 
 import { notFound, errorHandler } from "./middileware/errorMiddleware.js";
-dotenv.config({ path: "./config.env" });
+// dotenv.config({ path: "./config.env" });
+dotenv.config()
 const port = process.env.PORT;
 const DATABASE_URL = process.env.DATABASE_URL;
 connectDB(DATABASE_URL);
